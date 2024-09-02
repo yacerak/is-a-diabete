@@ -41,7 +41,7 @@ drive.mount('/content/drive')
 
 ### 3. Loading the Dataset
 ```python
-diabetes_data = pd.read_csv("/content/drive/My Drive/diabetes/diabetes.csv")
+diabetes_data = pd.read_csv("/content/drive/path/to/diabetes.csv")
 ```
 - **Purpose**: Load the diabetes dataset from Google Drive into a Pandas DataFrame.
 
